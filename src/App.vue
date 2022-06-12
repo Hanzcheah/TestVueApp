@@ -98,7 +98,9 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
+.greetings{
+    text-align:center;
+}
 @media (min-width: 1024px) {
   body {
     display: flex;
@@ -107,8 +109,9 @@ nav a:first-of-type {
 
   #app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     padding: 0 2rem;
+    margin-left:2vw;
   }
 
   header {
@@ -135,5 +138,9 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+  .greetings{
+    text-align:left;
+  }
+
 }
 </style>
